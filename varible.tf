@@ -21,9 +21,3 @@ variable "base_domain" {
   type        = list(string)
   default     = ["service.consul"]
 }
-//
-//variable "roles" {
-//  description = "The list of fabric roles"
-//  type        = list(string)
-//  default     = ["peer", "admin"]
-//}
